@@ -1,5 +1,5 @@
 # Programming-Notes
-Notes for key concepts in programming competitions. (Java) 
+Notes for key concepts used in programming competitions. (Java)
 # Table of Contents
 
 ## Data Structures
