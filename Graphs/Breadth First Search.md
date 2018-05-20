@@ -1,15 +1,17 @@
 # Breadth First Search
 Breadth First Search (BFS) is an algorithm for traversing or searching tree or graph data structures. It can begin at the tree root or any node on a graph, and explores the neighbor nodes first, before moving to the next level neighbors. BFS is used frequently in programming competitions to find the shortest path from one point on a graph to another.\
-**Step 1:** Create a map of the graph.\
-**Step 2:** Create a stepValue array the same size as the map to store the step value of each node. FIrst set all elements to Integer.MAX_VALUE, meaning that no position has been visited yet, but set the beginning node's stepValue to 0.\
-**Step 3:** Create a queue and add the first node's coordinates into it.\
-**Step 4:** Remove a node from the queue and based on restrictions for valid moves, visit the adjacent nodes that have a larger step value than the current node's step value+1. Increase the next node's stepValue to the stepValue of the current node+1. Insert the next node into the queue.\
-**Step 5:** Repeat Step 4 until the queue is empty, and the step value of the destination node will be the shortest path from the beginning node to the destination node.
+Steps for using BFS to find the shortest path one point on a graph to another:
+1. Create a map of the graph.
+2. Create a stepValue array the same size as the map to store the step value of each node. FIrst set all elements to Integer.MAX_VALUE, meaning that no position has been visited yet, but set the beginning node's stepValue to 0.
+3. Create a queue and add the first node's coordinates into it.
+4. Remove a node from the queue and based on restrictions for valid moves, visit the adjacent nodes that have a larger step value than the current node's step value+1. Increase the next node's stepValue to the stepValue of the current node+1. Insert the next node into the queue.
+5. Repeat Step 4 until the queue is empty, and the step value of the destination node will be the shortest path from the beginning node to the destination node.
 ## Implementation
 BFS is often used with 2D Arrays that act as a map of the graph.\
-Given a 5x5 map where:\
-* ```O``` is open space (you can pass through these)\
-* ```X``` is wall (you can't pass through these)\
+**Sample Problem:** Given a 5x5 map where:
+* ```O``` is open space (you can pass through these)
+* ```X``` is wall (you can't pass through these)
+
 What is the shortest amount of steps that it takes to move from the top left corner to the bottom right corner(you can only move in 4 directions: up, down, left, right)?\
 **_Try it yourself first_**
 ### Input
