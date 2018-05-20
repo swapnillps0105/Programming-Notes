@@ -8,10 +8,10 @@ For example: Finding the GCD of 1314 and 1022.
 2. Since the remainder is not 0, now express 1022 in terms of the remainder, 292 plus another number.\
 ``` 1022 = 292 x 3 + 146 ```
 3. Repeat this process until you reach a remainder of 0.\
-``` 292 = 146 x 2 + 0 ```
+``` 292 = 146 x 2 + 0 ```\
 Since 146 produced a remainder of 0, the GCD of 1314 and 1022 is 146.\
 This algorithm can be easily coded as a recursive method.
-## Implementation
+## Implementation (GCD)
 ```java
 //assume that a and b cannot both be 0
 public int GCD(int a, int b)
@@ -21,8 +21,8 @@ public int GCD(int a, int b)
    return GCD(b,a%b);
 }
 ```
+## Implementation (LCM)
 Using the GCD of two numbers _a_ and _b_ found from Euclid’s algorithm we can find the LCM by dividing _ab_ by their GCD.
-## Implementation(LCM)
 ```java
 public int LCM(int a, int b)
 {
