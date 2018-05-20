@@ -2,10 +2,10 @@
 Breadth First Search (BFS) is an algorithm for traversing or searching tree or graph data structures. It can begin at the tree root or any node on a graph, and explores the neighbor nodes first, before moving to the next level neighbors. BFS is used frequently in programming competitions to find the shortest path from one point on a graph to another.\
 Steps for using BFS to find the shortest path one point on a graph to another:
 1. Create a map of the graph.
-2. Create a stepValue array the same size as the map to store the step value of each node. FIrst set all elements to Integer.MAX_VALUE, meaning that no position has been visited yet, but set the beginning node's stepValue to 0.
+2. Create a stepValue array the same size as the map to store the step value of each node. First set all elements to Integer.MAX_VALUE, meaning that no position has been visited yet, but set the beginning node's stepValue to 0.
 3. Create a queue and add the first node's coordinates into it.
 4. Remove a node from the queue and based on restrictions for valid moves, visit the adjacent nodes that have a larger step value than the current node's step value+1. Increase the next node's stepValue to the stepValue of the current node+1. Insert the next node into the queue.
-5. Repeat Step 4 until the queue is empty, and the step value of the destination node will be the shortest path from the beginning node to the destination node.
+5. Repeat step 4 until the queue is empty, and the step value of the destination node will be the shortest path from the beginning node to the destination node.
 ## Implementation
 BFS is often used with 2D Arrays that act as a map of the graph.\
 **Sample Problem:** Given a 5x5 map where:
@@ -25,7 +25,7 @@ OOOXO
 ### Output
 ```8```
 ### Explanation
-The shortest path from the top left corner (row=0,col=0) to the bottom right corner(row=4,col=4) is 8 steps, displayed by the symbol ```*``` marked on the map below:
+The shortest path from the top left corner (row=0, col=0) to the bottom right corner(row=4, col=4) is 8 steps, displayed by the symbol ```*``` marked on the map below:
 ```
 OXOOO
 ***XO
@@ -54,7 +54,7 @@ public class BFS {
 				step[row][col] = Integer.MAX_VALUE;
 			}
 		}
-		//Set the step value of the beginning element in the top right corner(row=0,col=0) to 0
+		//Set the step value of the beginning element in the top right corner(row=0, col=0) to 0
 		step[0][0] = 0;
 		//Step 3:
 		//create 2 queues, one for row number and another for column number
@@ -101,7 +101,7 @@ public class BFS {
 				colQ.add(col);
 			}
 		}
-		//Final Step: output the shortest path to the bottom right corner(row=4,col=4)
+		//Final Step: output the shortest path to the bottom right corner(row=4, col=4)
 		int shortestPath = step[4][4];
 		//if the step value of an element is still Integer.MAX_VALUE, it means that it has not been visited
 		if (shortestPath==Integer.MAX_VALUE) {		
