@@ -8,8 +8,8 @@ For example: Finding the GCD of 1314 and 1022.
 2. Since the remainder is not 0, now express 1022 in terms of the remainder, 292 plus another number.\
 ``` 1022 = 292 x 3 + 146 ```
 3. Repeat this process until you reach a remainder of 0.\
-``` 292 = 146 x 2 + 0 ```<br/>
-Since 146 produced a remainder of 0, the GCD of 1314 and 1022 is 146.\
+``` 292 = 146 x 2 + 0 ```\
+Since 146 produced a remainder of 0, the GCD of 1314 and 1022 is 146.
 ## Implementation (GCD)
 This algorithm can be easily coded as a recursive method.
 ```java
