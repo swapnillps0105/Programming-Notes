@@ -3,7 +3,8 @@ Notes for key concepts used in programming competitions. (Java)
 # Table of Contents
 
 ## Data Structures
-* Arrays
+* 1D Arrays and Arrays Class
+* 2D Arrays
 * Linked List
 * Trees (Binary Tree And Binary Search Tree)
 * Stacks
