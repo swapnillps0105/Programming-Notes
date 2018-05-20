@@ -20,6 +20,7 @@ Notes for key concepts used in programming competitions. (Java)
 
 ## Math
 * Area of Polygons (Pick's Theorem)
+* Arithmetic with Fractions
 * Finding the GCD and LCM (Euclid’s Algorithm)
 * Number Base Conversions
 * Prime Number Generation (Sieve of Eratosthenes)
