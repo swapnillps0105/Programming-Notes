@@ -1,6 +1,7 @@
 # Arithmetic with Fractions
 For most purposes it is sufficient to represent fractions as 2-element arrays (pairs). The numerator is stored in the first element and the denominator in the second element.\
-Using this method along with the GCD and LCM, you can create functions to multiply, add, and subtract fractions.(The GCD and LCM function can be found [here](https://github.com/danielzyy/Programming-Notes/blob/master/Math/GCD%20and%20LCM%20%28Euclid%E2%80%99s%20algorithm%29.md))
+Using this method along with the GCD and LCM, you can create functions to multiply, add, and subtract fractions./
+(The GCD and LCM function can be found [here](https://github.com/danielzyy/Programming-Notes/blob/master/Math/GCD%20and%20LCM%20%28Euclid%E2%80%99s%20algorithm%29.md))
 ## Implementation
 When multiplying fractions _a_ and _b_, you simply multiply the numerator and denominator to get the resulting fraction _c_.
 ```java
