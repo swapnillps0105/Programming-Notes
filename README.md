@@ -19,9 +19,9 @@ Notes for key concepts used in programming competitions. (Java)
 * Prim’s Minimum Spanning Tree Algorithm
 
 ## Math
-* Finding the GCD and LCM (Euclid’s algorithm)
+* Area of Polygons (Pick's Theorem)
+* Finding the GCD and LCM (Euclid’s Algorithm)
 * Prime Number Generation (Sieve of Eratosthenes)
-* Pick's Theorem for Area of Polygons
 
 ## Searching And Sorting Algorithms
 * Linear Search
