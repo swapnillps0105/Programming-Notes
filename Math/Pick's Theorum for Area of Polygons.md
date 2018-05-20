@@ -4,7 +4,7 @@ To understand this formula, two definitions are needed:\
 Boundary Points (_B_): the number of lattice points on the polygon (including vertices)\
 Interior Points (_I_): the number of lattice points in the polygon’s interior region\
 The area of this polygon is then given by:\
-```Area = B/2 + I - 1```
+```Area = B/2 + I - 1```\
 A more detailed explination and proof of Pick's Theorem can be found [here](http://jwilson.coe.uga.edu/EMAT6680Fa05/Schultz/6690/Pick/Pick_Main.htm).
 ## Implementation
 ```java
