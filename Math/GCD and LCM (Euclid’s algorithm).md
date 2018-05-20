@@ -22,7 +22,7 @@ public int GCD(int a, int b)
 }
 ```
 Using the GCD of two numbers _a_ and _b_ found from Euclid’s algorithm we can find the LCM by dividing _ab_ by their GCD.
-## Implementation
+## Implementation(LCM)
 ```java
 public int LCM(int a, int b)
 {
