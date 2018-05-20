@@ -1,4 +1,4 @@
-# Prime Number Generation using Sieve of Eratosthenes
+# Prime Number Generation Using Sieve of Eratosthenes
 The Sieve of Eratosthenes is an efficient method for generating all the primes from 2 to a given number n. It begins by assuming all the numbers are prime. Then it removes all the multiples of the first prime number. This sequence repeats for the next prime numbers until all numbers have been processed, and only the prime numbers are left.
 ## Implementation
 ```java
