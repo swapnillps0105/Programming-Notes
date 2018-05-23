@@ -29,4 +29,4 @@ Use method Arrays.equals(array1,array2); to check if two arrays of the same type
  ```java
 Array.equals(char[] A,char[] B); 
 ```
-For the full list of methods and more details visit the Oracle site [here](https://docs.oracle.com/javase/7/docs/api/java/util/Arrays.html).
+For the full list of methods and more details visit the [Oracle site](https://docs.oracle.com/javase/7/docs/api/java/util/Arrays.html).
