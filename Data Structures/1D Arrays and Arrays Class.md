@@ -1,8 +1,8 @@
 # 1D Arrays and Arrays Class
-Arrays are a type of data structure that stores a fixed-size sequential collection of elements of the same type. Cells in array follow index position (first cell is at index 0, second cell at index 1, etc. up to: array.length - 1)\
-```Format: type [] name = new type[size];```\
-To put something in a cell in the array use:\
-```arrayName[cellindex] = value;```\
+Arrays are a type of data structure that stores a fixed-size sequential collection of elements of the same type. Cells in arrays follow index position (first cell is at index 0, second cell at index 1, etc. up to: array.length - 1)\
+Declaration and Instantiation Format: ```type[] name = new type[size];```\
+Initialization Format: ```arrayName[cellindex] = value;```\
+Declaration, Instantiation and Initialization Format: ```type[] name = {element1, element2, etc.}```
 You can get the length of an array using:\
 ```arrayName.length```
 ## Implementation
