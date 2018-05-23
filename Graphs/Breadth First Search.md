@@ -72,8 +72,7 @@ public class BFS {
 			/* The following if statements check the requirements:
 			 * 	1. if the adjacent elements are within the 5x5 map boundary
 			 * 	2. the adjacent elements are not 'X' (a wall)
-			 * 	3. the step value of the adjacent element is larger then the
-			 * current element's step value+1.
+			 * 	3. the step value of the adjacent element is larger then the current element's step value+1.
 			 * If all of those conditions are met, the coordinates of the
 			 * adjacent element is added to the queue, and its step value is set
 			 * to the current element's step value+1
