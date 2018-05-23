@@ -16,7 +16,7 @@ public class AdjacencyList {
 	}
 	public static void main(String[] args) {
 			int N = 100;
-			ArrayList<Edge>[] adjList = new ArrayList[N];//create an AdjacencyList array [] that can hold edges connecting N nodes.
+			ArrayList<Edge>[] adjList = new ArrayList[N];//create an AdjacencyList array [] that can hold edges connecting N vertices.
 			for (int i = 0;i<N;i++) {
 				adjList[i] = new ArrayList<Edge>(); //initialize the ArrayLists
 			}
