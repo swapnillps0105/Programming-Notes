@@ -1,10 +1,14 @@
 # 1D Arrays and Arrays Class
-Arrays are a type of data structure that stores a fixed-size sequential collection of elements of the same type. Cells in arrays follow index position (first cell is at index 0, second cell at index 1, etc. up to: array.length - 1)\
+Arrays are a type of data structure that stores a fixed-size sequential collection of elements of the same type. Cells in arrays follow index position (first cell is at index 0, second cell at index 1, etc. Up to: array.length - 1)\
 **Declaration and Instantiation Format:** ```type[] identifier = new type[size];```\
 **Initialization Format:** ```arrayName[cellindex] = value;```\
 **Declaration, Instantiation and Initialization Format:** ```type[] identifier = {element1, element2, etc.};```
-You can get the length of an array using:\
-```arrayName.length```
+You can get the length of an array using: ```arrayName.length```\
+Note:
+* when boolean arrays are instantiated, all elements are initialized to ```false```.
+* when char arrays are instantiated, all elements are initialized to null character '\u0000' (whose decimal equivalent is 0).
+* when numeric datatypes arrays are instantiated, all elements are initialized to ```0```(long,int,short, and byte) or ```0.0```(float and double).
+* when reference datatypes (String, LinkedList, etc.) arrays are instantiated, all elements are initialized to ```null```.
 ## Implementation
 Creating an array named A that can hold 7 integer elements:
 ```java
