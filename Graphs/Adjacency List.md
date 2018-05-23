@@ -1,10 +1,10 @@
 # Adjacency List
-An Adjacency List is a 1D array, that has the same number of of elements as nodes in a graph. Each element in the array is an ArrayList object, which is used instead of a 2D array used to minimize space, as ArrayList is dynamic, so will use less space compared to a 2D array. However, using an AdjacencyList is slower than 2D array, so you should use a 2D array if speed is an issue. The index of the 1D array represents the beginning vertex of the edge, and the ArrayList stores Edge objects which contain the ending vertex of the edge and the weight of the edge.\
+An Adjacency List is a 1D array, that has the same number of of elements as vertices in a graph. Each element in the array is an ArrayList object, which is used instead of a 2D array used to minimize space, as ArrayLists are dynamic, so they will use less space compared to a 2D array with a fixed number of elements. However, using an AdjacencyList is slower than 2D array, so you should use a 2D array if you are given a set amount of vertices, and if speed is an issue. The index of the 1D array represents the beginning vertex of the edge, and the ArrayList stores Edge objects which contain the ending vertex of the edge and the weight of the edge.
 ## Implementation
 Adjacency Lists are used to store the edges of the graph(by storing their starting and ending vertex) and their weights so they can easily be accessed and manipulated.
 ```java 
 import java.util.ArrayList;
-public class Adjacency_List {
+public class AdjacencyList {
 	//the edge objects will store the ending vertex of the edge and its weight, since the beginning vertex is stored as the index of the array.
 	public static class Edge {
 		int ev; 
