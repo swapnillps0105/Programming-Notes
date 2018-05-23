@@ -2,7 +2,7 @@
 Arrays are a type of data structure that stores a fixed-size sequential collection of elements of the same type. Cells in arrays follow index position (first cell is at index 0, second cell at index 1, etc. up to: array.length - 1)\
 Declaration and Instantiation Format: ```type[] name = new type[size];```\
 Initialization Format: ```arrayName[cellindex] = value;```\
-Declaration, Instantiation and Initialization Format: ```type[] name = {element1, element2, etc.}```
+Declaration, Instantiation and Initialization Format: ```type[] name = {element1, element2, etc.};```
 You can get the length of an array using:\
 ```arrayName.length```
 ## Implementation
@@ -25,4 +25,4 @@ Use method Arrays.equals(array1,array2); to check if two arrays of the same type
  ```java
 Array.equals(char[] A,char[] B); 
 ```
-For the full list of methods visit the Oracle site [here](https://docs.oracle.com/javase/7/docs/api/java/util/Arrays.html).
+For the full list of methods and more details visit the Oracle site [here](https://docs.oracle.com/javase/7/docs/api/java/util/Arrays.html).
