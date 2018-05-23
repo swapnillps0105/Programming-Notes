@@ -66,11 +66,11 @@ public class BFS {
 		//Step 4-5:
 		//loop until one of the queues are empty
 		while (!rowQ.isEmpty()) {
-			//remove a element from the queues
+			//remove an element from the queues
 			int row = rowQ.poll();
 			int col = colQ.poll();
-			/* The following if statements check the requirements:
-			 * 	1. if the adjacent elements are within the 5x5 map boundary
+			/* The following 'if' statements check the requirements:
+			 * 	1. the adjacent elements are within the 5x5 map boundary
 			 * 	2. the adjacent elements are not 'X' (a wall)
 			 * 	3. the step value of the adjacent element is larger then the current element's step value+1.
 			 * If all of those conditions are met, the coordinates of the
