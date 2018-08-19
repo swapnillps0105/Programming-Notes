@@ -36,8 +36,10 @@ Notes for key concepts used in programming competitions. (Java)
 * Merge Sort
 
 ## File I/O
-* Writing Text to File Using PrintWriter
+* Reading Text File Using BufferedReader
 * Reading Text File Using Scanner
+* Writing Text to File Using BufferedWriter
+* Writing Text to File Using PrintWriter
 
 ## Contact
 You can contact me at danielye4@gmail.com for any inquiries.

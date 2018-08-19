@@ -1,8 +1,8 @@
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
-
-public class Reading_Text_File {
+//Use Scanner if you want to parse specific type of token from a stream (using .nextLine(), .nextInt(), etc.)
+public class Reading_Text_File_Scanner {
 
 	public static void main(String[] args) {
 		File file = new File("C:\\Users\\...\\text.txt");

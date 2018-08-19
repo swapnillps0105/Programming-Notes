@@ -2,11 +2,11 @@ import java.io.File;
 import java.io.IOException;
 import java.io.PrintWriter;
 
-public class Writing_To_File {
+public class Writing_To_File_PrintWriter {
 
 	public static void main(String[] args) {
-		//To find the text file, right-click the project folder and find its location
-		File file = new File("text.txt"); //create a new text file called text.txt
+		//Text file will be located in its project folder
+		File file = new File("text.txt"); //create a new .txt file called text
 		try {
 			PrintWriter output = new PrintWriter(file); 
 			output.println("sample text");
@@ -16,5 +16,4 @@ public class Writing_To_File {
 			System.out.println("Error: " + e);
 		}
 	}
-
 }
