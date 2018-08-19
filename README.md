@@ -33,6 +33,11 @@ Notes for key concepts used in programming competitions. (Java)
 * Bubble Sort
 * Insertion Sort
 * Selection Sort
+* Merge Sort
+
+## File I/O
+* Writing Text to File Using PrintWriter
+* Reading Text File Using Scanner
 
 ## Contact
 You can contact me at danielye4@gmail.com for any inquiries.
